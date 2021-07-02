@@ -23,3 +23,7 @@ Each folder in this repository has the following structure within:
 
 1. Follow the README instructions on [Deephaven Community Core](https://github.com/deephaven/deephaven-core) for installing the client and all required dependencies.
 2. Place the desired directory into the `deephaven-core` clone as `/data/DIR` within the docker container.
+
+## License
+
+Provided under the [Apache 2.0 license](./LICENSE)
