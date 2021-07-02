@@ -21,6 +21,5 @@ Each folder in this repository has the following structure within:
 
 ## Installation Instructions
 
-1. Follow the README instructions on [Deephaven Community Core](https://github.com/deephaven/deephaven-core) for installing the OSS client and all required dependencies.
+1. Follow the README instructions on [Deephaven Community Core](https://github.com/deephaven/deephaven-core) for installing the client and all required dependencies.
 2. Place the desired directory into the `deephaven-core` clone as `/data/DIR` within the docker container.
-
