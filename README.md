@@ -36,7 +36,7 @@ git lfs install
 gh repo clone deephaven/deephaven-core-test-data
 ```
 
-4. Move these Parquet to your deephaven-core clone, for example, if they are on the same room directory from that directory execute the command:
+4. Copy these Parquet to your deephaven-core clone, for example, if they are on the same room directory from that directory execute the command:
 ```
 cp -R deephaven-core-test-data/parquetFiles deephaven-core/docker/core/data
 ```
