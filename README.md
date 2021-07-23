@@ -21,8 +21,25 @@ Each folder in this repository has the following structure within:
 
 ## Installation Instructions
 
-1. Follow the README instructions on [Deephaven Community Core](https://github.com/deephaven/deephaven-core) for installing the client and all required dependencies.
-2. Place the desired directory into the `deephaven-core` clone as `/data/DIR` within the docker container.
+1. Follow the README instructions on [Deephaven Community Core](https://github.com/deephaven/deephaven-core) for installing the code studio and all required dependencies.
+
+2. The repository uses [GitHub large file support](https://git-lfs.github.com/).  Follow the directions in the link to install.  If you are using Mac, you need to:
+
+```
+brew install git-lfs
+git lfs install
+```
+
+3. Execute the command to clone the test repository:
+
+```
+gh repo clone deephaven/deephaven-core-test-data
+```
+
+4. Copy these Parquet to your deephaven-core clone, for example, if they are on the same room directory from that directory execute the command:
+```
+cp -R deephaven-core-test-data/parquetFiles deephaven-core/docker/core/data
+```
 
 ## License
 
